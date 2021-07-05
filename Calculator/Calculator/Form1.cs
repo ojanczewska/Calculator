@@ -14,6 +14,7 @@ namespace Calculator
     {
         String sign = "";
         Double num1 = 0;
+       
         bool startNewNumber = false;
         private Form2 Cyfrowy;
 
