@@ -16,7 +16,7 @@ namespace Calculator
         Double num1 = 0;
        
         bool startNewNumber = false;
-        private Form2 Cyfrowy;
+        private Form2 DigitalClock;
 
         public Form1()
         {
@@ -186,7 +186,7 @@ namespace Calculator
 
         }
 
-        private void zmieńKolorTłaToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ChangeBackgroundColorToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ColorDialog colorGlg = new ColorDialog();
             if (colorGlg.ShowDialog() == DialogResult.OK)
@@ -197,7 +197,7 @@ namespace Calculator
             }
         }
 
-        private void cyfryToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ChangeNumbersKeysColorToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ColorDialog colorGlg = new ColorDialog();
             if (colorGlg.ShowDialog() == DialogResult.OK)
@@ -217,7 +217,7 @@ namespace Calculator
             }
         }
 
-        private void znakiToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ChangeSignKeyColorToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ColorDialog colorGlg = new ColorDialog();
             if (colorGlg.ShowDialog() == DialogResult.OK)
@@ -269,16 +269,21 @@ namespace Calculator
 
         private void wyświetlToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Cyfrowy = new Form2();
-            this.Cyfrowy.Show();
+            this.DigitalClock = new Form2();
+            this.DigitalClock.Show();
         }
 
         private void zamknijToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Cyfrowy.Close();
+            this.DigitalClock.Close();
         }
 
         private void zegarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 
         }

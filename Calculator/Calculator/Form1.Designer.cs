@@ -83,6 +83,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 75F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(501, 631);
             this.tableLayoutPanel1.TabIndex = 0;
+            this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
             // result
             // 
@@ -483,7 +484,7 @@
             this.zmieńKolorTłaToolStripMenuItem.Name = "zmieńKolorTłaToolStripMenuItem";
             this.zmieńKolorTłaToolStripMenuItem.Size = new System.Drawing.Size(265, 30);
             this.zmieńKolorTłaToolStripMenuItem.Text = "Zmień kolor tła";
-            this.zmieńKolorTłaToolStripMenuItem.Click += new System.EventHandler(this.zmieńKolorTłaToolStripMenuItem_Click);
+            this.zmieńKolorTłaToolStripMenuItem.Click += new System.EventHandler(this.ChangeBackgroundColorToolStripMenuItem_Click);
             // 
             // zmieńKolorKlawiszToolStripMenuItem
             // 
@@ -500,14 +501,14 @@
             this.cyfryToolStripMenuItem.Name = "cyfryToolStripMenuItem";
             this.cyfryToolStripMenuItem.Size = new System.Drawing.Size(138, 30);
             this.cyfryToolStripMenuItem.Text = "Cyfry";
-            this.cyfryToolStripMenuItem.Click += new System.EventHandler(this.cyfryToolStripMenuItem_Click);
+            this.cyfryToolStripMenuItem.Click += new System.EventHandler(this.ChangeNumbersKeysColorToolStripMenuItem_Click);
             // 
             // znakiToolStripMenuItem
             // 
             this.znakiToolStripMenuItem.Name = "znakiToolStripMenuItem";
             this.znakiToolStripMenuItem.Size = new System.Drawing.Size(138, 30);
             this.znakiToolStripMenuItem.Text = "Znaki";
-            this.znakiToolStripMenuItem.Click += new System.EventHandler(this.znakiToolStripMenuItem_Click);
+            this.znakiToolStripMenuItem.Click += new System.EventHandler(this.ChangeSignKeyColorToolStripMenuItem_Click);
             // 
             // Form1
             // 
