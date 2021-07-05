@@ -1,0 +1,11 @@
+C:\Users\Ola\source\repos\Calculator\Calculator\bin\Release\Calculator.exe.config
+C:\Users\Ola\source\repos\Calculator\Calculator\bin\Release\Calculator.exe
+C:\Users\Ola\source\repos\Calculator\Calculator\bin\Release\Calculator.pdb
+C:\Users\Ola\source\repos\Calculator\Calculator\obj\Release\Calculator.csprojAssemblyReference.cache
+C:\Users\Ola\source\repos\Calculator\Calculator\obj\Release\Calculator.Form1.resources
+C:\Users\Ola\source\repos\Calculator\Calculator\obj\Release\Calculator.Form2.resources
+C:\Users\Ola\source\repos\Calculator\Calculator\obj\Release\Calculator.Properties.Resources.resources
+C:\Users\Ola\source\repos\Calculator\Calculator\obj\Release\Calculator.csproj.GenerateResource.cache
+C:\Users\Ola\source\repos\Calculator\Calculator\obj\Release\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Ola\source\repos\Calculator\Calculator\obj\Release\Calculator.exe
+C:\Users\Ola\source\repos\Calculator\Calculator\obj\Release\Calculator.pdb
