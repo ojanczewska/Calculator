@@ -6,7 +6,7 @@ It allows to perform the following calculations:
  - subtraction (-),
  - multiplication (*),
  - dividing (/),
- as well as operations:
+-as well as operations:
  - change of sign (+/-),
  - delete the last entered digit (Backspace),
  - delete the last entered number (CE),
