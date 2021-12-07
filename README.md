@@ -13,8 +13,7 @@ as well as operations:
  - calculator reset (C).
 There is also a function to change the color of the calculator.
 
-![This is an image](https://github.com/ojanczewska/Calculator/blob/master/Calculator/Calculator/img/image.png=250x250)
-
+![](https://github.com/ojanczewska/Calculator/blob/master/Calculator/Calculator/img/image.png =250x250)
 # Technologies
 Project is created with Windows Forms C#.
 
