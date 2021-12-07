@@ -14,6 +14,7 @@ as well as operations:
 There is also a function to change the color of the calculator.
 
 ![](https://github.com/ojanczewska/Calculator/blob/master/Calculator/Calculator/img/image.png =250x250)
+<img src="https://github.com/ojanczewska/Calculator/blob/master/Calculator/Calculator/img/image.png" alt="alt text" width="250" height="250">
 # Technologies
 Project is created with Windows Forms C#.
 
