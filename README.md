@@ -6,7 +6,7 @@ It allows to perform the following calculations:
  - subtraction (-),
  - multiplication (*),
  - dividing (/),
-as well as operations:
+ as well as operations:
  - change of sign (+/-),
  - delete the last entered digit (Backspace),
  - delete the last entered number (CE),
@@ -15,7 +15,7 @@ There is also a function to change the color of the calculator.
 
 ![This is an image](https://github.com/ojanczewska/Calculator/blob/master/Calculator/Calculator/img/image.png)
 
-#Technologies
+# Technologies
 Project is created with Windows Forms C#.
 
 
